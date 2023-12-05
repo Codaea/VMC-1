@@ -375,10 +375,6 @@
       (effects (font (size 1.27 1.27)) (justify right))
       (uuid 3cc91cdb-4b13-4acc-a67f-db4be0110952)
     )
-    (pin "TLC5940 Bus" input (at 98.425 85.725 0)
-      (effects (font (size 1.27 1.27)) (justify right))
-      (uuid 93bb00f1-4d18-4fea-bf7d-729acc105eb7)
-    )
     (instances
       (project "VMC1"
         (path "/030598bf-3d55-483a-af42-40ff6f2e377a" (page "6"))

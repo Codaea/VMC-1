@@ -657,7 +657,7 @@
   (symbol (lib_id "Device:R_Potentiometer") (at 208.915 138.43 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 20f2cf17-efec-4be6-a493-c448c95542d4)
-    (property "Reference" "RV?" (at 205.105 142.24 0)
+    (property "Reference" "RV32" (at 205.105 142.24 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "~" (at 212.725 138.43 90)
@@ -675,7 +675,7 @@
     (instances
       (project "VMC1"
         (path "/030598bf-3d55-483a-af42-40ff6f2e377a/0e4dff31-92f3-4306-89d1-37404e655862"
-          (reference "RV?") (unit 1)
+          (reference "RV32") (unit 1)
         )
       )
       (project "V"
@@ -689,7 +689,7 @@
   (symbol (lib_id "Device:R_Potentiometer") (at 104.775 138.43 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 3c2bdfc8-77df-4eb3-b0e4-62d038c7c07c)
-    (property "Reference" "RV?" (at 100.965 142.24 0)
+    (property "Reference" "RV20" (at 100.965 142.24 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "~" (at 108.585 138.43 90)
@@ -707,7 +707,7 @@
     (instances
       (project "VMC1"
         (path "/030598bf-3d55-483a-af42-40ff6f2e377a/0e4dff31-92f3-4306-89d1-37404e655862"
-          (reference "RV?") (unit 1)
+          (reference "RV20") (unit 1)
         )
       )
       (project "V"
@@ -871,7 +871,7 @@
   (symbol (lib_id "Device:R_Potentiometer") (at 78.105 138.43 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 50f4d9e7-21c2-472b-acad-99ba7d98c156)
-    (property "Reference" "RV?" (at 74.295 142.24 0)
+    (property "Reference" "RV17" (at 74.295 142.24 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "~" (at 81.915 138.43 90)
@@ -889,7 +889,7 @@
     (instances
       (project "VMC1"
         (path "/030598bf-3d55-483a-af42-40ff6f2e377a/0e4dff31-92f3-4306-89d1-37404e655862"
-          (reference "RV?") (unit 1)
+          (reference "RV17") (unit 1)
         )
       )
       (project "V"
@@ -963,7 +963,7 @@
   (symbol (lib_id "Device:R_Potentiometer") (at 147.955 138.43 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 65a626de-73e0-47bd-87bc-9324c2578c6f)
-    (property "Reference" "RV?" (at 144.145 142.24 0)
+    (property "Reference" "RV25" (at 144.145 142.24 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "~" (at 151.765 138.43 90)
@@ -981,7 +981,7 @@
     (instances
       (project "VMC1"
         (path "/030598bf-3d55-483a-af42-40ff6f2e377a/0e4dff31-92f3-4306-89d1-37404e655862"
-          (reference "RV?") (unit 1)
+          (reference "RV25") (unit 1)
         )
       )
       (project "V"
@@ -1085,7 +1085,7 @@
   (symbol (lib_id "Device:R_Potentiometer") (at 95.885 138.43 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 76492c25-b310-4c69-882c-d80cdfd01214)
-    (property "Reference" "RV?" (at 92.075 142.24 0)
+    (property "Reference" "RV19" (at 92.075 142.24 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "~" (at 99.695 138.43 90)
@@ -1103,7 +1103,7 @@
     (instances
       (project "VMC1"
         (path "/030598bf-3d55-483a-af42-40ff6f2e377a/0e4dff31-92f3-4306-89d1-37404e655862"
-          (reference "RV?") (unit 1)
+          (reference "RV19") (unit 1)
         )
       )
       (project "V"
@@ -1117,7 +1117,7 @@
   (symbol (lib_id "74xx:CD74HC4067M") (at 113.665 97.79 90) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 778a2e96-3819-4d5a-b5b2-d195e792aa15)
-    (property "Reference" "U?" (at 113.665 97.79 90)
+    (property "Reference" "U3" (at 113.665 97.79 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "CD74HC4067M" (at 142.875 107.95 90)
@@ -1156,7 +1156,7 @@
     (instances
       (project "VMC1"
         (path "/030598bf-3d55-483a-af42-40ff6f2e377a/0e4dff31-92f3-4306-89d1-37404e655862"
-          (reference "U?") (unit 1)
+          (reference "U3") (unit 1)
         )
       )
       (project "V"
@@ -1203,7 +1203,7 @@
   (symbol (lib_id "Device:R_Potentiometer") (at 86.995 138.43 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 8558da12-92c4-40ab-9a7a-d5df2d6a9d2c)
-    (property "Reference" "RV?" (at 83.185 142.24 0)
+    (property "Reference" "RV18" (at 83.185 142.24 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "~" (at 90.805 138.43 90)
@@ -1221,7 +1221,7 @@
     (instances
       (project "VMC1"
         (path "/030598bf-3d55-483a-af42-40ff6f2e377a/0e4dff31-92f3-4306-89d1-37404e655862"
-          (reference "RV?") (unit 1)
+          (reference "RV18") (unit 1)
         )
       )
       (project "V"
@@ -1325,7 +1325,7 @@
   (symbol (lib_id "Device:R_Potentiometer") (at 200.025 138.43 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 93a72e3c-0c14-48da-9f5e-19032574e164)
-    (property "Reference" "RV?" (at 196.215 142.24 0)
+    (property "Reference" "RV31" (at 196.215 142.24 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "~" (at 203.835 138.43 90)
@@ -1343,7 +1343,7 @@
     (instances
       (project "VMC1"
         (path "/030598bf-3d55-483a-af42-40ff6f2e377a/0e4dff31-92f3-4306-89d1-37404e655862"
-          (reference "RV?") (unit 1)
+          (reference "RV31") (unit 1)
         )
       )
       (project "V"
@@ -1597,7 +1597,7 @@
   (symbol (lib_id "Device:R_Potentiometer") (at 113.665 138.43 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid b69763ee-9f06-4008-819a-55512e7e2c8a)
-    (property "Reference" "RV?" (at 109.855 142.24 0)
+    (property "Reference" "RV21" (at 109.855 142.24 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "~" (at 117.475 138.43 90)
@@ -1615,7 +1615,7 @@
     (instances
       (project "VMC1"
         (path "/030598bf-3d55-483a-af42-40ff6f2e377a/0e4dff31-92f3-4306-89d1-37404e655862"
-          (reference "RV?") (unit 1)
+          (reference "RV21") (unit 1)
         )
       )
       (project "V"
@@ -1659,7 +1659,7 @@
   (symbol (lib_id "Device:R_Potentiometer") (at 122.555 138.43 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid c6de8f68-5616-4277-b8fb-10ac4cb5969c)
-    (property "Reference" "RV?" (at 118.745 142.24 0)
+    (property "Reference" "RV22" (at 118.745 142.24 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "~" (at 126.365 138.43 90)
@@ -1677,7 +1677,7 @@
     (instances
       (project "VMC1"
         (path "/030598bf-3d55-483a-af42-40ff6f2e377a/0e4dff31-92f3-4306-89d1-37404e655862"
-          (reference "RV?") (unit 1)
+          (reference "RV22") (unit 1)
         )
       )
       (project "V"
@@ -1691,7 +1691,7 @@
   (symbol (lib_id "Device:R_Potentiometer") (at 165.735 138.43 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid c71b01e1-e2f7-4696-8f29-ffa80c2a8c6b)
-    (property "Reference" "RV?" (at 161.925 142.24 0)
+    (property "Reference" "RV27" (at 161.925 142.24 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "~" (at 169.545 138.43 90)
@@ -1709,7 +1709,7 @@
     (instances
       (project "VMC1"
         (path "/030598bf-3d55-483a-af42-40ff6f2e377a/0e4dff31-92f3-4306-89d1-37404e655862"
-          (reference "RV?") (unit 1)
+          (reference "RV27") (unit 1)
         )
       )
       (project "V"
@@ -1753,7 +1753,7 @@
   (symbol (lib_id "Device:R_Potentiometer") (at 174.625 138.43 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid cd5da34c-79ea-44c2-ba2c-11d1547ec0e6)
-    (property "Reference" "RV?" (at 170.815 142.24 0)
+    (property "Reference" "RV28" (at 170.815 142.24 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "~" (at 178.435 138.43 90)
@@ -1771,7 +1771,7 @@
     (instances
       (project "VMC1"
         (path "/030598bf-3d55-483a-af42-40ff6f2e377a/0e4dff31-92f3-4306-89d1-37404e655862"
-          (reference "RV?") (unit 1)
+          (reference "RV28") (unit 1)
         )
       )
       (project "V"
@@ -1845,7 +1845,7 @@
   (symbol (lib_id "Device:R_Potentiometer") (at 191.135 138.43 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid d683b306-0563-4d08-ad8c-0a2eb93d84ec)
-    (property "Reference" "RV?" (at 187.325 142.24 0)
+    (property "Reference" "RV30" (at 187.325 142.24 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "~" (at 194.945 138.43 90)
@@ -1863,7 +1863,7 @@
     (instances
       (project "VMC1"
         (path "/030598bf-3d55-483a-af42-40ff6f2e377a/0e4dff31-92f3-4306-89d1-37404e655862"
-          (reference "RV?") (unit 1)
+          (reference "RV30") (unit 1)
         )
       )
       (project "V"
@@ -1937,7 +1937,7 @@
   (symbol (lib_id "Device:R_Potentiometer") (at 131.445 138.43 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid e0e3f160-2b38-4c8a-8955-3f20a3dce9e5)
-    (property "Reference" "RV?" (at 127.635 142.24 0)
+    (property "Reference" "RV23" (at 127.635 142.24 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "~" (at 135.255 138.43 90)
@@ -1955,7 +1955,7 @@
     (instances
       (project "VMC1"
         (path "/030598bf-3d55-483a-af42-40ff6f2e377a/0e4dff31-92f3-4306-89d1-37404e655862"
-          (reference "RV?") (unit 1)
+          (reference "RV23") (unit 1)
         )
       )
       (project "V"
@@ -1999,7 +1999,7 @@
   (symbol (lib_id "Device:R_Potentiometer") (at 183.515 138.43 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid e7eac3e3-d45f-47c5-bbac-1b9e521812d9)
-    (property "Reference" "RV?" (at 179.705 142.24 0)
+    (property "Reference" "RV29" (at 179.705 142.24 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "~" (at 187.325 138.43 90)
@@ -2017,7 +2017,7 @@
     (instances
       (project "VMC1"
         (path "/030598bf-3d55-483a-af42-40ff6f2e377a/0e4dff31-92f3-4306-89d1-37404e655862"
-          (reference "RV?") (unit 1)
+          (reference "RV29") (unit 1)
         )
       )
       (project "V"
@@ -2121,7 +2121,7 @@
   (symbol (lib_id "Device:R_Potentiometer") (at 156.845 138.43 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid fc434c33-9dce-411e-a226-4ef2b6a97327)
-    (property "Reference" "RV?" (at 153.035 142.24 0)
+    (property "Reference" "RV26" (at 153.035 142.24 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "~" (at 160.655 138.43 90)
@@ -2139,7 +2139,7 @@
     (instances
       (project "VMC1"
         (path "/030598bf-3d55-483a-af42-40ff6f2e377a/0e4dff31-92f3-4306-89d1-37404e655862"
-          (reference "RV?") (unit 1)
+          (reference "RV26") (unit 1)
         )
       )
       (project "V"
@@ -2153,7 +2153,7 @@
   (symbol (lib_id "Device:R_Potentiometer") (at 139.065 138.43 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid fee55cbd-fd2e-4205-a81e-27367df7c829)
-    (property "Reference" "RV?" (at 135.255 142.24 0)
+    (property "Reference" "RV24" (at 135.255 142.24 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "~" (at 142.875 138.43 90)
@@ -2171,7 +2171,7 @@
     (instances
       (project "VMC1"
         (path "/030598bf-3d55-483a-af42-40ff6f2e377a/0e4dff31-92f3-4306-89d1-37404e655862"
-          (reference "RV?") (unit 1)
+          (reference "RV24") (unit 1)
         )
       )
       (project "V"
