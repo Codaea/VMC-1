@@ -5,7 +5,8 @@
   (paper "USLetter")
 
   (title_block
-    (date "2023-12-01")
+    (title "VMC-1")
+    (date "2023-12-03")
     (rev "1.00")
   )
 
@@ -569,6 +570,19 @@
   )
 
 
+  (bus_entry (at 95.25 83.82) (size -2.54 -2.54)
+    (stroke (width 0) (type default))
+    (uuid 966b57c8-a59d-4485-ac0d-23e931e7ba35)
+  )
+  (bus_entry (at 95.25 86.36) (size -2.54 -2.54)
+    (stroke (width 0) (type default))
+    (uuid b7df744a-dcac-4b1f-b860-c51d2f996517)
+  )
+  (bus_entry (at 95.25 88.9) (size -2.54 -2.54)
+    (stroke (width 0) (type default))
+    (uuid fdb1827b-2bd0-49c5-8a12-6a8ee3a4643f)
+  )
+
   (wire (pts (xy 56.515 93.98) (xy 56.515 107.95))
     (stroke (width 0) (type default))
     (uuid 07fad43a-c3cf-4902-a759-f31c16b02c60)
@@ -577,6 +591,11 @@
     (stroke (width 0) (type default))
     (uuid 0b758613-b143-4a33-8c0a-23faa0ad72d0)
   )
+  (bus (pts (xy 88.9 76.835) (xy 92.71 76.835))
+    (stroke (width 0) (type default))
+    (uuid 0bc92063-4da8-4183-8deb-ec9dc97bc47e)
+  )
+
   (wire (pts (xy 114.3 99.06) (xy 77.47 99.06))
     (stroke (width 0) (type default))
     (uuid 0bd11bbc-8b25-49eb-9961-10884146559f)
@@ -585,6 +604,11 @@
     (stroke (width 0) (type default))
     (uuid 2b767d23-aa7c-44cb-831a-3028795730f0)
   )
+  (bus (pts (xy 92.71 83.82) (xy 92.71 86.36))
+    (stroke (width 0) (type default))
+    (uuid 2c317c86-848b-4c6a-9d06-97956a0d7e00)
+  )
+
   (wire (pts (xy 95.25 83.82) (xy 114.3 83.82))
     (stroke (width 0) (type default))
     (uuid 302640de-49a2-4507-8c48-1483d77318d6)
@@ -617,10 +641,20 @@
     (stroke (width 0) (type default))
     (uuid 614a663a-790e-49ed-82c4-47967bdc864a)
   )
+  (bus (pts (xy 92.71 76.835) (xy 92.71 81.28))
+    (stroke (width 0) (type default))
+    (uuid 6a0cb917-96bc-4d0c-96a9-f3dd8c2adeee)
+  )
+
   (wire (pts (xy 138.43 147.32) (xy 138.43 143.51))
     (stroke (width 0) (type default))
     (uuid 6a266070-4232-45fe-a1ba-5942c229fff0)
   )
+  (bus (pts (xy 92.71 81.28) (xy 92.71 83.82))
+    (stroke (width 0) (type default))
+    (uuid 6d917e57-d2bb-4774-b432-56a87e40af4b)
+  )
+
   (wire (pts (xy 114.3 96.52) (xy 63.5 96.52))
     (stroke (width 0) (type default))
     (uuid 8c2f72ff-ddb4-43f2-b234-b7d21841bc92)
@@ -699,6 +733,10 @@
   (text "Extra Knobs" (at 53.34 92.71 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 4aeab811-ea45-42b1-be9f-925983229e87)
+  )
+  (text "BUS STUFF STILL NEEDED\n" (at 71.755 70.485 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid 64089b4d-0d01-4513-acc9-c46755278912)
   )
   (text "Short 4 knobs on multiplexer channels, got moved here"
     (at 53.34 117.475 0)

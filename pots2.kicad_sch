@@ -4,6 +4,11 @@
 
   (paper "USLetter")
 
+  (title_block
+    (title "VMC-1")
+    (date "2023-12-03")
+  )
+
   (lib_symbols
     (symbol "74xx:CD74HC4067M" (in_bom yes) (on_board yes)
       (property "Reference" "U" (at -8.89 22.86 0)
